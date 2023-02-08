@@ -1,0 +1,67 @@
+header {border-bottom: 20px solid brown;
+        border-top: 20px solid brown;
+        background-image: linear-gradient(blue, lightgreen)
+}
+
+body {
+    max-width: 1000px;
+    align-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    border: 3px solid blue;
+    margin: auto;
+    background-color: aquamarine;
+}
+main img {
+    float: left;
+    clear: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+
+section {
+    float: right;
+    clear: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+aside {
+    float: left;
+    clear: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+body p {
+  font-size: medium;
+}
+
+body p:second-child {
+    float: left;
+}
+
+
+html {
+    background-color: white;
+}
+
+
+header {
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: blue;
+    padding: 15px 0px;
+}
+footer p {
+    text-align: center;
+    font-size: 75%;
+    color: azure;
+}
